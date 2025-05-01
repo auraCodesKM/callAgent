@@ -75,7 +75,7 @@ export default function CallInterface({ isConnecting, onEndCall }: CallInterface
           <div className="w-28 h-28 rounded-full bg-gradient-to-br from-blue-500 to-purple-600 flex items-center justify-center mb-5 shadow-lg avatar-pulse">
             <span className="text-4xl font-bold">AI</span>
           </div>
-          <h1 className="text-3xl font-bold mb-1">CS AI Agent</h1>
+          <h1 className="text-3xl font-bold mb-1">Arvya Legal Agent</h1>
           <p className="text-lg text-gray-300 opacity-80">{isConnecting ? "Calling mobile..." : "Connected"}</p>
         </div>
 
