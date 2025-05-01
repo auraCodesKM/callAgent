@@ -45,7 +45,7 @@ export default function InitiateCall({ onStartCall }: InitiateCallProps) {
           </div>
 
           <h2 className="text-2xl font-bold text-white mb-2">CS AI Agent</h2>
-          <p className="text-gray-400 mb-8 text-center">Voice-enabled AI assistant</p>
+          <p className="text-gray-400 mb-8 text-center">Voice-enabled AI Agent</p>
 
           <div className="flex gap-6 mb-8">
             <Button
