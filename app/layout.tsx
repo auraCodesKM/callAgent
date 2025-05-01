@@ -28,13 +28,12 @@ export default function RootLayout({
                 var v = d.createElement(t), s = d.getElementsByTagName(t)[0];
                 v.onload = function() {
                   window.voiceflow.chat.load({
-                    verify: { projectID: '681262616fd70321fb70e507' },
+                    verify: { projectID: '6813c2bea4c58339fde7c5b7' },
                     url: 'https://general-runtime.voiceflow.com',
                     versionID: 'production',
                     voice: {
                       url: "https://runtime-api.voiceflow.com"
-                    },
-                    api: { key: 'IVMkgK3yE769ox6W' }
+                    }
                   });
                 }
                 v.src = "https://cdn.voiceflow.com/widget-next/bundle.mjs"; v.type = "text/javascript"; s.parentNode.insertBefore(v, s);
